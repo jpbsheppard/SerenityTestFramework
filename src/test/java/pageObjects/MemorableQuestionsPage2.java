@@ -29,7 +29,7 @@ public class MemorableQuestionsPage2 {
     @FindBy(id = "memorableQuestionsForm:loginButton")
     private WebElement memQuestionSubmitButton;
 
-    //error message when device not trusted
+    //error message
     @FindBy(className = "errormsg")
     private WebElement errorMessage;
 
