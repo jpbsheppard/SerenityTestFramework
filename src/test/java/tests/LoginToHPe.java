@@ -30,7 +30,7 @@ public class LoginToHPe {
     }
     
     //Happy Path
-    @Test
+    @Test()
     public void userLogsInWithCameronShouldBeSuccess(){
         LoginPage login = new LoginPage(driver);
         String userName = "Cameron";
