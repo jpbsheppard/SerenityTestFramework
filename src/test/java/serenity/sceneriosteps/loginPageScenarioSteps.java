@@ -1,7 +1,9 @@
 package serenity.sceneriosteps;
 
+import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -10,7 +12,7 @@ import serenity.pageobjects.LoginPage;
 import serenity.pageobjects.MemorableQuestionsPage1;
 import serenity.pageobjects.PasswordPage;
 
-import static tests.LoginToHPe.driver;
+
 
 
 /**
@@ -22,6 +24,9 @@ public class loginPageScenarioSteps extends ScenarioSteps {
     PasswordPage pp;
     MemorableQuestionsPage1 mqp1;
     GluuPage gluu;
+
+    @Managed(driver = "Firefox")
+    WebDriver driver;
 
     @Step("When the user has clicked the login button")
     public void clickLoginButton(){

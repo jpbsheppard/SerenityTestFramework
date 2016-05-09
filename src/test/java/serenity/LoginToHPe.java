@@ -35,22 +35,17 @@ public class LoginToHPe {
         user.clickLoginButton();
 
         //password page
-
- //       user.waitForPasswordPage();
         user.setPasswordFormEntry1();
         user.setPasswordFormEntry2();
         user.setPasswordFormEntry3();
         user.clickSubmitButton();
 
         //memorable questions
-
-  //      user.waitForMemorableQuestion1Page();
         user.enterMemorableAnswer1();
         user.enterMemorableAnswer2();
         user.clickMemorableQuestionSubmitButton();
 
         //AssertSuccess
         user.isGluuPageOpen();
-
     }
 }
