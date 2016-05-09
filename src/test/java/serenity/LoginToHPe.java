@@ -1,4 +1,4 @@
-package tests.serenityTests;
+package serenity;
 
 
 import net.serenitybdd.junit.runners.SerenityRunner;

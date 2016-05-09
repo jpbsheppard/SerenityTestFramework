@@ -99,8 +99,7 @@
                 <version>2.18</version>
                 <configuration>
                     <includes>
-                        <include>**/cucumber/junit/**/*.java</include>
-                        <include>**/cucumber/*.java</include>
+                        <include>**/serenity/*.java</include>
                     </includes>
                     <reuseForks>true</reuseForks>
                     <!--<forkCount>2</forkCount>-->

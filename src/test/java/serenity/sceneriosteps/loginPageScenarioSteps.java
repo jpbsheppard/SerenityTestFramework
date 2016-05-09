@@ -110,7 +110,7 @@ public class loginPageScenarioSteps extends ScenarioSteps {
 
     }
 
-    @Step("Wait for Gluu page to open")
+    @Step("Then the Gluu page to open")
     public void waitForGluuPageToLoad(){
         WebDriverWait waitUntilGluuPageLoads = new WebDriverWait(driver, 5);
         waitUntilGluuPageLoads.until(ExpectedConditions.titleIs("Gluu"));
