@@ -113,21 +113,49 @@
     <orderEntry type="library" name="Maven: org.jsoup:jsoup:1.8.3" level="project" />
     <orderEntry type="library" name="Maven: com.google.jimfs:jimfs:1.0" level="project" />
     <orderEntry type="library" name="Maven: net.serenity-bdd:serenity-junit:1.1.31" level="project" />
-    <orderEntry type="library" name="Maven: net.serenity-bdd:serenity-rest-assured:1.1.31" level="project" />
-    <orderEntry type="library" name="Maven: com.jayway.restassured:rest-assured:2.4.1" level="project" />
-    <orderEntry type="library" name="Maven: org.ccil.cowan.tagsoup:tagsoup:1.2.1" level="project" />
-    <orderEntry type="library" name="Maven: com.jayway.restassured:json-path:2.4.1" level="project" />
-    <orderEntry type="library" name="Maven: com.jayway.restassured:rest-assured-common:2.4.1" level="project" />
-    <orderEntry type="library" name="Maven: com.jayway.restassured:xml-path:2.4.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: net.serenity-bdd:serenity-rest-assured:1.1.31" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.jayway.restassured:rest-assured:2.4.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.ccil.cowan.tagsoup:tagsoup:1.2.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.jayway.restassured:json-path:2.4.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.jayway.restassured:rest-assured-common:2.4.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.jayway.restassured:xml-path:2.4.1" level="project" />
     <orderEntry type="library" name="Maven: net.serenity-bdd:serenity-cucumber:1.1.6" level="project" />
     <orderEntry type="library" name="Maven: info.cukes:cucumber-java:1.2.4" level="project" />
     <orderEntry type="library" name="Maven: info.cukes:cucumber-junit:1.2.4" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-simple:1.6.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.jayway.restassured:json-schema-validator:2.9.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.github.fge:json-schema-validator:2.2.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.googlecode.libphonenumber:libphonenumber:6.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.github.fge:json-schema-core:1.2.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.github.fge:uri-template:0.9" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.github.fge:msg-simple:1.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.github.fge:btf:1.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.github.fge:jackson-coreutils:1.8" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.2.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.2.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.fasterxml.jackson.core:jackson-core:2.2.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.mozilla:rhino:1.7R4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: javax.mail:mailapi:1.4.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: javax.activation:activation:1.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: net.sf.jopt-simple:jopt-simple:4.6" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-all:1.8.6" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.12" level="project" />
     <orderEntry type="library" name="Maven: com.googlecode.lambdaj:lambdaj:2.3.3" level="project" />
     <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-all:1.1" level="project" />
     <orderEntry type="library" name="Maven: cglib:cglib-nodep:2.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.assertj:assertj-core:1.7.0" level="project" />
+    <orderEntry type="library" name="Maven: net.serenity-bdd:serenity-jira-plugin:1.1.2-rc.1" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.jersey.core:jersey-client:2.3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.jersey.core:jersey-common:2.3.1" level="project" />
+    <orderEntry type="library" name="Maven: javax.annotation:javax.annotation-api:1.2" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:osgi-resource-locator:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:hk2-api:2.2.0-b14" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:hk2-utils:2.2.0-b14" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2.external:javax.inject:2.2.0-b14" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:hk2-locator:2.2.0-b14" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2.external:asm-all-repackaged:2.2.0-b14" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2.external:cglib:2.2.0-b14" level="project" />
+    <orderEntry type="library" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0.1" level="project" />
+    <orderEntry type="library" name="Maven: net.serenity-bdd:serenity-jira-requirements-provider:1.1.2-rc.1" level="project" />
   </component>
 </module>

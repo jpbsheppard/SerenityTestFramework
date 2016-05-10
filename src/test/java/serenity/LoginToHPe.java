@@ -1,6 +1,5 @@
 package serenity;
 
-
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
@@ -9,7 +8,6 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 import serenity.sceneriosteps.loginPageScenarioSteps;
-
 
 /**
  * hpe on 06/05/2016.
@@ -25,7 +23,7 @@ public class LoginToHPe {
 
     //Happy Path
     @Test()
-    @Title("User successfully logs in with a username of Cameron")
+    @Title("User logs in successfully with a registered device - (#HPLBS-9)")
     public void userLogsInWithCameronShouldBeSuccess(){
 
         String userName = "Cameron";
